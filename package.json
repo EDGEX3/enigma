@@ -1,0 +1,35 @@
+{
+  "name": "@edgex0255/enigma",
+  "version": "0.0.1",
+  "description": "",
+  "main": "./dist/src/enigma.js",
+  "type": "module",
+  "packagename": "enigma",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "type": "tsc -w",
+    "enigma": "nodemon node ."
+  },
+  "bin": "./dist/src/enigma.js",
+  "keywords": [
+    "enigma",
+    "sense",
+    "qlik",
+    "cloud database connector api"
+  ],
+  "author": "edgex",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^5.2.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.22"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.17",
+    "@types/node": "^18.16.3",
+    "typescript": "^5.0.4"
+  }
+}
